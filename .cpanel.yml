@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/fidozwju/nuevo.delpinocardenas.com.ar
+    - /bin cp * $DEPLOYPATH

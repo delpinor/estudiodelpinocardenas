@@ -2,7 +2,8 @@
 node_modules/
 
 # IDE
-.idea
+.idea/
+.git/
 
 # dotenv environment variable files
 .env
