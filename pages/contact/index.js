@@ -6,15 +6,15 @@ import NewsLetter from '../../components/Newsletter'
 import Form from '../../components/Form'
 
 const breadcumbMenu = [
-    { name: 'Home', route: '/' },
-    { name: 'Contact', },
+    { name: 'Inicio', route: '/' },
+    { name: 'Contacto', },
 ]
 
 const Contact = () => {
     return (
         <Fragment>
             <Head>
-                <title>Contact us</title>
+                <title>Contacto</title>
             </Head>
             <Breadcumb
                 className="breadcumbArea"
@@ -27,16 +27,17 @@ const Contact = () => {
                 <Grid container spacing={4} className="container">
                     <Grid item md={7} xs={12}>
                         <Grid className="contactUsInfo">
-                            <h3>Our Contacts</h3>
-                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+                            <h3>Contáctenos</h3>
+                            <p>Horario de atención línea fija. Lunes a viernes de 9 a 15:30 hs.
+                                Por WhatsApp puede enviarnos mensajes las 24 hs. y se le responderá a la brevedad.
                                 </p>
-                            <h4>Address</h4>
-                            <span>245 King Street, Touterie Victoria 8520 Australia</span>
-                            <h4>Phone</h4>
-                            <span>0-123-456-7890</span>
-                            <span>0-123-456-7890</span>
+                            <h4>Dirección</h4>
+                            <span>Paraná 123 Piso 8 Of. 186 – CABA</span>
+                            <h4>Teléfono</h4>
+                            <span>+549-11-5855-9722</span>
                             <h4>Email</h4>
-                            <span>sample@gmail.com</span>
+                            <span>maribel@delpinocardenas.com.ar</span>
+                            <span>luzmariela@delpinocardenas.com.ar</span>
                         </Grid>
                     </Grid>
                     <Grid item md={5} xs={12}>

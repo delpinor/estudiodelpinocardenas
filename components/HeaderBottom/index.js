@@ -53,36 +53,36 @@ const HeaderBottom = props => {
                             <li><Link href='/case-stadies'><a className={router.pathname == "/case-stadies" || router.pathname == "/case-stadies/[id]" ? "active" : ""}>Casos</a></Link></li>
                             <li><Link href='/blog'><a className={router.pathname == "/blog" || router.pathname == "/blog/[id]" ? "active" : ""}>Blog</a></Link></li>
                             <li><Link href='/attorneys'><a className={router.pathname == "/attorneys" || router.pathname == "/attorneys/[id]" ? "active" : ""}>Equipo</a></Link></li>
-                            <li><Link href='/contact'><a className={router.pathname == "/contact" ? "active" : ""}>Contáctenos</a></Link></li>
+                            <li><Link href='/contact'><a className={router.pathname == "/contact" ? "active" : ""}>Contacto</a></Link></li>
                         </ul>
                     </Grid>
-                    <Grid item md={1} sm={6} xs={4}>
-                        <Grid className="searchMenuWrapper">
-                            <Grid className="searchWrap">
-                                <SearchOutlinedIcon className="search" onClick={clickHandler} />
-                                <Grid className={trigger ? 'searchform active' : 'searchform'}>
-                                    <TextField
-                                        placeholder="Search Here"
-                                        value={search}
-                                        type="text"
-                                        variant="outlined"
-                                        className="searchInput"
-                                        onChange={event => setSearch(event.target.value)}
-                                        InputProps={{
-                                            endAdornment: <InputAdornment position="end">
-                                                <Button><SearchOutlinedIcon /></Button>
-                                            </InputAdornment>,
-                                        }}
-                                    />
-                                </Grid>
-                            </Grid>
-                            <Grid onClick={responsiveHandler} className="responsiveTrigger">
-                                <span className="first"></span>
-                                <span className="second"></span>
-                                <span className="third"></span>
-                            </Grid>
-                        </Grid>
-                    </Grid>
+                    {/*<Grid item md={1} sm={6} xs={4}>*/}
+                    {/*    <Grid className="searchMenuWrapper">*/}
+                    {/*        <Grid className="searchWrap">*/}
+                    {/*            <SearchOutlinedIcon className="search" onClick={clickHandler} />*/}
+                    {/*            <Grid className={trigger ? 'searchform active' : 'searchform'}>*/}
+                    {/*                <TextField*/}
+                    {/*                    placeholder="Search Here"*/}
+                    {/*                    value={search}*/}
+                    {/*                    type="text"*/}
+                    {/*                    variant="outlined"*/}
+                    {/*                    className="searchInput"*/}
+                    {/*                    onChange={event => setSearch(event.target.value)}*/}
+                    {/*                    InputProps={{*/}
+                    {/*                        endAdornment: <InputAdornment position="end">*/}
+                    {/*                            <Button><SearchOutlinedIcon /></Button>*/}
+                    {/*                        </InputAdornment>,*/}
+                    {/*                    }}*/}
+                    {/*                />*/}
+                    {/*            </Grid>*/}
+                    {/*        </Grid>*/}
+                    {/*        <Grid onClick={responsiveHandler} className="responsiveTrigger">*/}
+                    {/*            <span className="first"></span>*/}
+                    {/*            <span className="second"></span>*/}
+                    {/*            <span className="third"></span>*/}
+                    {/*        </Grid>*/}
+                    {/*    </Grid>*/}
+                    {/*</Grid>*/}
                 </Grid>
             </Grid>
         </Fragment>

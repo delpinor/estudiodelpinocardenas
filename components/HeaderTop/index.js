@@ -12,13 +12,13 @@ const HeaderTop = props => {
                 className="container headerTopMainWrapper">
                 <Grid item sm={6} md={5} lg={5} xs={12}>
                     <ul className="d-flex accountLoginArea">
-                        <li><RoomOutlinedIcon /> 121 King Street, Melbourne , Australia</li>
+                        <li><RoomOutlinedIcon />Paraná 123 Piso 8 Of. 186 – CABA</li>
                     </ul>
                 </Grid>
                 <Grid item sm={6} md={4} lg={5} xs={12}>
                     <ul className="headerContact">
-                        <li><PhoneOutlinedIcon /> 3164-5456854</li>
-                        <li><QueryBuilderOutlinedIcon /> 9AM - PM</li>
+                        <li><PhoneOutlinedIcon />+5491158559722</li>
+                        <li><QueryBuilderOutlinedIcon /> Lunes a Viernes - 09:00 a 15:30 hs.</li>
                     </ul>
                 </Grid>
                 <Hidden smDown>

@@ -1,5 +1,19 @@
 {
   "/_app": "pages/_app.js",
+  "/about": "pages/about.html",
+  "/api/contact": "pages/api/contact.js",
+  "/attorneys/[id]": "pages/attorneys/[id].js",
+  "/attorneys": "pages/attorneys.html",
+  "/blog/[id]": "pages/blog/[id].js",
+  "/blog": "pages/blog.html",
+  "/case-stadies/[id]": "pages/case-stadies/[id].js",
+  "/case-stadies": "pages/case-stadies.html",
+  "/contact": "pages/contact.html",
+  "/home-two": "pages/home-two.html",
+  "/": "pages/index.html",
+  "/practice/[id]": "pages/practice/[id].js",
+  "/practice": "pages/practice.html",
   "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js"
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.html"
 }
